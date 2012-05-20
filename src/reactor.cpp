@@ -44,8 +44,10 @@ void Reactor::react(GesName ges, int targ)
 
 		// for media
 		if (targ == 2) {
+			/*
 			keybd_event(VK_F10, MapVirtualKey(VK_F10, 0), 0, 0);			
-			keybd_event(VK_F10, MapVirtualKey(VK_F10, 0), KEYEVENTF_KEYUP, 0);			
+			keybd_event(VK_F10, MapVirtualKey(VK_F10, 0), KEYEVENTF_KEYUP, 0);
+			*/
 		}
 
 		
@@ -82,8 +84,10 @@ void Reactor::react(GesName ges, int targ)
 
 		// for media
 		if (targ == 2) {
+			/*
 			keybd_event(VK_F9, MapVirtualKey(VK_F9, 0), 0, 0);			
-			keybd_event(VK_F9, MapVirtualKey(VK_F9, 0), KEYEVENTF_KEYUP, 0);			
+			keybd_event(VK_F9, MapVirtualKey(VK_F9, 0), KEYEVENTF_KEYUP, 0);
+			*/
 		}
 		
 
@@ -96,8 +100,10 @@ void Reactor::react(GesName ges, int targ)
 
 		// for Powerpoint (simulate a key press for page up)
 		if (targ == 0) {
+			/*
 			keybd_event( VK_PRIOR, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0 );		
 			keybd_event( VK_PRIOR, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, 0);			
+			*/
 		}
 
 		// for EV
@@ -111,10 +117,12 @@ void Reactor::react(GesName ges, int targ)
 
 		// for media
 		if (targ == 2) {
+			/*
 			keybd_event(VK_CONTROL, MapVirtualKey(VK_CONTROL, 0), 0, 0);
 			keybd_event(0x42, MapVirtualKey(0x46, 0), 0, 0);
 			keybd_event(VK_CONTROL, MapVirtualKey(VK_CONTROL, 0), KEYEVENTF_KEYUP, 0);
 			keybd_event(0x42, MapVirtualKey(0x46, 0), KEYEVENTF_KEYUP, 0);
+			*/
 		}
 					
 		break;
@@ -126,8 +134,10 @@ void Reactor::react(GesName ges, int targ)
 
 		// for Powerpoint (simulate a key press for page down)
 		if (targ == 0) {
+			/*
 			keybd_event( VK_NEXT, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0 );
 			keybd_event( VK_NEXT, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, 0);			
+			*/
 		}
 
 		// for EV
@@ -141,10 +151,12 @@ void Reactor::react(GesName ges, int targ)
 
 		// for media
 		if (targ == 2) {
+			/*
 			keybd_event(VK_CONTROL, MapVirtualKey(VK_CONTROL, 0), 0, 0);
 			keybd_event(0x46, MapVirtualKey(0x46, 0), 0, 0);
 			keybd_event(VK_CONTROL, MapVirtualKey(VK_CONTROL, 0), KEYEVENTF_KEYUP, 0);
 			keybd_event(0x46, MapVirtualKey(0x46, 0), KEYEVENTF_KEYUP, 0);
+			*/
 		}
 
 		break;
