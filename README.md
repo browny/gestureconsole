@@ -23,7 +23,7 @@
 **5. Enjoy**
 
 	$ cd bin
-	$ ./main test.jpg
+	$ ./main
 
 **6. Exit**
 
